@@ -1,4 +1,4 @@
-def f(n):
+def func(n):
     if n==0 or n==1:
         return n
     else:
@@ -12,4 +12,4 @@ def f(n):
         return f
     
 n=int(input())
-print(f(n))
+print(func(n))
